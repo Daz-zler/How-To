@@ -1,0 +1,15 @@
+#How To Integrate Github with Jupyter Notebook
+==================================================
+
+1.Create a repo in github "integrator"
+2.Go to the Profile "Settings" on top right corner->Developer Settings->Personal Access Token->Make a note "Link_To_JupyTer_Notebook"->Select write,delete,gist,repo packages
+and create a token.
+3.Go to your Jupyter Notebook
+4.Install the NBextensions with the below commands to create the gists.
+5.!pip install jupyter_contrib_nbextensions
+!jupyter contrib nbextensions install --user
+6.Select the gist and  paste the token id and make it public.
+7.Reload the Jupyter notebook to see the Nbextensions.
+8.Create a file and you can see a icon of github and do the commit.
+9.Go to the Gists of your github account.
+10.Bingo!!
